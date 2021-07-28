@@ -1,4 +1,4 @@
-package com.Project.ServiceManagement.Master.Country_Master.Domain;
+package com.Project.ServiceManagement.master.Country_Master.Domain;
 
 import javax.persistence.*;
 
