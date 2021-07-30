@@ -30,7 +30,7 @@ public class MakeMasterService {
         return makeMasterRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Employee Not exist with Id" + id));
     }
 
-    public String updateMakeDetails(@RequestBody MakeMaster makeMaster)
+    public String updateMakeDetails(MakeMaster makeMaster)
     {
         MakeMaster makeMaster1 = makeMasterRepository.findById(makeMaster.getId()).orElse(null);
         if(makeMaster1!=null)
